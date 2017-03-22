@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.productions.kondor.codelab.friendlychat;
+package com.kondor.firebase.codelab.friendlychat;
 
 public class FriendlyMessage {
 

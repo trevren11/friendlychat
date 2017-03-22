@@ -14,12 +14,14 @@
  * limitations under the License.
  */
 
-package com.productions.kondor.codelab.friendlychat;
+package com.kondor.firebase.codelab.friendlychat;
 
 import android.support.test.espresso.matcher.ViewMatchers;
 import android.support.test.rule.ActivityTestRule;
 import android.support.test.runner.AndroidJUnit4;
 import android.test.suitebuilder.annotation.LargeTest;
+
+import com.productions.kondor.codelab.friendlychat.R;
 
 import org.junit.Rule;
 import org.junit.Test;

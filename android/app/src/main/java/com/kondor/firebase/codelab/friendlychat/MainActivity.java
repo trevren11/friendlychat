@@ -13,8 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.productions.kondor.codelab.friendlychat;
-
+package com.kondor.firebase.codelab.friendlychat;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.Uri;
@@ -70,6 +69,7 @@ import com.google.firebase.remoteconfig.FirebaseRemoteConfigSettings;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
+import com.productions.kondor.codelab.friendlychat.R;
 
 import java.util.HashMap;
 import java.util.Map;

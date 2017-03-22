@@ -11,7 +11,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.productions.kondor.codelab.friendlychat.MainActivity">
+        <activity android:name="com.productions.kondor.codelab.friendlychat.com.kondor.firebase.codelab.friendlychat.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -29,10 +29,10 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".SignInActivity" />
+        <activity android:name="com.kondor.firebase.codelab.friendlychat.SignInActivity" />
 
         <service
-            android:name=".MyFirebaseMessagingService"
+            android:name="com.kondor.firebase.codelab.friendlychat.MyFirebaseMessagingService"
             android:exported="false">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
@@ -40,7 +40,7 @@
         </service>
 
         <service
-            android:name=".MyFirebaseInstanceIdService"
+            android:name="com.kondor.firebase.codelab.friendlychat.MyFirebaseInstanceIdService"
             android:exported="false">
             <intent-filter>
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
